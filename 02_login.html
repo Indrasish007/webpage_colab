@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Login Page</title> 
+
+    <style>
+        body {
+            background-color: #51e2f5;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        input[type="text"],
+        input[type="password"],
+        button {
+            font-size: 18px;
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+            margin: 5px;
+            width: 250px;
+            
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        a:hover {
+            color: #444;
+        }
+    </style>
+</head> 
+<body> 
+    <center> 
+        <h1>User Login Page</h1> 
+    </center> 
+    <div align="center"> 
+        <form>
+            <b>Username:</b><input type="text" id="username" placeholder="abc@gmail.com" required><br> 
+            <b>Password:</b><input type="password" name="password" id="password" required><br> 
+        <button type="submit">Submit</button>
+        </form>
+    </div> 
+    <p align="center">If you are not a member of this class then <b><a href="03_Registration.html">Register</a></b></p> 
+</body> 
+</html>
